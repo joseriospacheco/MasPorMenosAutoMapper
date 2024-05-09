@@ -5,7 +5,7 @@ namespace Repositorio.Data
 {
     public class AppDbContext : DbContext
     {
-
+        public DbSet<Vehiculo> Vehiculo { get; set; }
         public DbSet<Producto> Productos { get; set; }
         public DbSet<Conductor> Conductor { get; set; }
 

@@ -9,6 +9,8 @@ namespace Servicio.Mapeo
 
         public AutoMapperProfile()
         {
+            CreateMap<CrearVehiculoDto, Vehiculo>();
+            CreateMap<Vehiculo, VehiculoCreadoDto>();
             CreateMap<CrearProductoDto, Producto>();
             CreateMap<Producto, ProductoCreadoDto>();
             //CreateMap<CrearProductoDto, Producto>();

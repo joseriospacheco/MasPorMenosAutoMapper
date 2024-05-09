@@ -13,6 +13,8 @@ namespace Dominio.Entities
 
         public string LicenciaTransito { get; set; }
         public DateOnly FechaNacimiento { get; set; }
+        public Vehiculo Vehiculo { get; set; }
+        public int VehiculoId {  get; set; } 
 
     }
 }
